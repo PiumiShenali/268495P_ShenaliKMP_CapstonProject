@@ -1,0 +1,23 @@
+# Python virtual environment (each computer makes its own)
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter autosave copies
+.ipynb_checkpoints/
+
+# Raw data: the download script fetches it, so it is not committed
+data/raw/
+
+# Trained models: too big for GitHub (100 MB limit per file)
+models/
+*.pt
+*.bin
+*.safetensors
+
+# Editor and Windows files
+.vscode/
+Thumbs.db
+desktop.ini

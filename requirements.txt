@@ -1,0 +1,7 @@
+# Python 3.14. Exact versions used in this project.
+numpy==2.5.5
+pandas==3.1.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+jupyter==1.1.1
+# Added in later steps: torch, transformers, sentencepiece (DeBERTa, step 6), streamlit (demo, step 9)
