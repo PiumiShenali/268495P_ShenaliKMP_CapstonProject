@@ -11,6 +11,10 @@ __pycache__/
 # Raw data: the download script fetches it, so it is not committed
 data/raw/
 
+# Processed data: src/prepare_data.py remakes it from data/raw/ and the
+# committed split in data/splits/
+data/processed/*.csv
+
 # Trained models: too big for GitHub (100 MB limit per file)
 models/
 *.pt
